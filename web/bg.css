@@ -1,0 +1,14 @@
+<img src="3.png" alt="gambar" class="bg" />
+body {
+     margin: 0;
+     padding: 0;
+     text-align: center;
+}
+.bg {
+     width: 2%;
+     height: 1%;
+     position: fixed;
+     z-index: 1;
+     float: left;
+     left: 0;
+}

@@ -1,0 +1,10 @@
+CARA INSTALASI
+
+- ekstrak hasil download dengan winrar atau sejenisnya
+- copy folder hasil ekstrak dan paste di www (appserv) atau di htdocts (xampp)
+- buat database baru di phpmyadmin
+- import file cart.sql yang ada difolder hasil ekstrak tadi
+- buka file config.php dan rubah detail koneksi anda
+
+TERIMA KASIH.
+CREATE AND DESIGN BY WWW.TUTORIALWEB.NET

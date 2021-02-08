@@ -1,0 +1,132 @@
+* {margin:0; padding:0;}
+ 
+body {
+ background-color:#D4D2CD;
+ font-family:Arial, Helvetica, sans-serif;
+ color:gray;
+}
+
+nav {
+ margin:auto;
+ text-align: center;
+ width: 100%;
+} 
+
+nav ul ul {
+ display: none;
+}
+
+nav ul li:hover > ul{
+display: block;
+width: 150px;
+}
+
+nav ul {
+ background: chocolate;
+ padding: 0 20px;
+ list-style: none;
+ position: relative;
+ display: inline-table;
+ width: 50%;
+}
+
+nav ul:after {
+ content: ""; 
+ clear:both; 
+ display: block;
+}
+
+nav ul li{
+ float:left;
+}
+
+nav ul li:hover{
+ background:gray;
+}
+
+nav ul li:hover a{
+ color:black;
+}
+
+nav ul li a{
+ display: block;
+ padding: 25px;
+ color: black;
+ text-decoration: none;
+}
+
+*{
+   box-sizing:border-box;
+   margin:0 auto;
+   font-family:Segoe UI;
+  }
+  .container {
+   width:90%;
+  }
+  header{
+   background-image:url('');
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-position: 0-40px;
+   height:500px;
+   background-position:center center;
+   
+  }
+  /*kode untuk navigasinya*/
+  nav.navbar {
+   background-color:white;
+   
+   overflow:hidden;
+  }
+  nav.navbar ul {
+   background-color:white;
+   list-style: none;
+   float:right;
+   padding:0;
+  }
+  nav.navbar ul li{
+   display:inline-block;
+  }
+  nav.navbar ul li a{
+   padding:20px;
+   color:#FF5E13;
+   font-weight:900;
+  }
+
+  /*kode untuk logo*/
+  .img-responsive {
+   display:block;
+   max-width:100%;
+   height:auto;
+  }
+  a{
+   text-decoration:none;
+   float:left;
+  }
+  a.logo {
+   padding:5px;
+  }
+  a.logo > span {
+    float: right;
+    padding: 5px;
+    background: #2a95d3;
+    color: #FFFFFF;
+    border-radius: 60px;
+    margin-top: 10px;
+  }
+  a.logo > img {
+   float:left;
+   width:100px;
+   height:50px;
+  }
+  @media (max-width: 650px){
+
+   a.logo,a.logo img,nav.navbar ul{
+    float:none;
+    text-align:center;
+   }
+   a.logo span{
+    float:none;
+    display:block;
+   }
+  }
